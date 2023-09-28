@@ -1,0 +1,63 @@
+.App{
+    background-color: lightgray;
+    width:30rem;
+    border-radius: 1rem;
+    padding:1rem;
+}
+
+.taskinput{
+    height:2rem;
+    width:100%;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    padding: 0 0.5rem;
+}
+body{
+    margin:3rem;
+    padding:2rem;
+}
+.taskbar{
+    display:flex;
+    align-items: center;
+}
+#btn{
+    width:2rem;
+    height:2rem;
+    margin:0.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+}
+.taskcheck{
+    background-color: rgb(220, 237, 245);
+    width:80%;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin:0.5rem;
+    display: flex;
+    padding:0.4rem;
+    /* align-items: center; */
+}
+.taskcheck svg{
+    margin: 0 0.3rem;
+}
+.delete{
+    display: flex;
+    align-items: center;
+}
+.del_icon{
+   width:1.8rem;
+   height:1.8rem;
+}
+.taskcheck input {
+    width: 60%;
+    /* padding: 10px 0; */
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+  }
+  
+ 
