@@ -9,12 +9,12 @@ const Task = () =>{
         <>
             <form>
                 <div >
-                    
                     <input className="taskinput"
                     type="text" value={taskName}
                     onChange=
                     {ev=>settaskName(ev.target.value)}
                      placeholder="Enter here ...." />
+                     
                 </div>
             </form>
         </>

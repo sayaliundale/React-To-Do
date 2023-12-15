@@ -1,18 +1,31 @@
+.container{
+    width:auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding:5rem 3rem;
+    gap:2rem;
+
+}
+
 .App{
     background-color: lightgray;
     width:30rem;
     border-radius: 1rem;
     padding:1rem;
+    margin-top: 3rem;
+    
 }
 
 .taskinput{
     height:2rem;
-    width:100%;
+    width:130%;
     border-radius: 0.3rem;
     font-size: 1.2rem;
     outline: none;
     border: none;
-    padding: 0 0.5rem;
+    padding:  0.5rem;
+    
 }
 body{
     margin:3rem;
@@ -28,6 +41,7 @@ body{
     margin:0.5rem;
     border-radius: 0.4rem;
     font-size: 1.3rem;
+    
 }
 .taskcheck{
     background-color: rgb(220, 237, 245);
@@ -58,6 +72,29 @@ body{
     border-bottom: 1px solid black;
     outline: none;
     background: transparent;
+    
+  }
+
+
+  .header{
+    width:100%;
+    height:5rem;
+    position: absolute;
+    top: 0rem;
+    left:0rem;
+    background-color: rgb(167, 246, 182);
+    display: flex;
+    
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    justify-content:center;
+  }
+  .header button{
+    width:2rem;
+    height:2rem;
+    margin : 1.2rem 1rem;
+    border-radius: 0.3rem;
   }
   
  

@@ -3,11 +3,13 @@ import "../App.css";
 import Task from "./Taskfrom";
 import Check from "./Taskcheck";
 
+
 function Manager() {
   const [addTasks, setTasks] = useState([]);
   const [taskIdCounter, setTaskIdCounter] = useState(0);
 
   const addTask = () => {
+    
     const newTask = {
       id: taskIdCounter,
       component: <Check key={taskIdCounter} />,
@@ -22,12 +24,16 @@ function Manager() {
   };
 
   return (
+    <>
+   
+   <div className="cont">
     <div className="App">
       <div className="taskbar">
         <button id="btn" onClick={addTask}>
           +
         </button>
         <Task />
+        
       </div>
       {addTasks.map((task) => (
         <div className="delete" key={task.id}>
@@ -44,6 +50,8 @@ function Manager() {
         </div>
       ))}
     </div>
+    </div>
+    </>
   );
 }
 
